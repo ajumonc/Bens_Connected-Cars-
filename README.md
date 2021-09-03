@@ -33,6 +33,7 @@ Go through steps in below link and setup a local RabbitMQ host.
 
 - https://www.javainuse.com/misc/rabbitmq-hello-world
 - Run RabbitMQ in local host (http://localhost:15672/#/queues/%2F/store.queue)
+- username and password is "guest".
 
 **2. Setup service 1 and Service 2 Micro-service**  
 
