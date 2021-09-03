@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_outer_classname = "DataProtos";
+option java_package = "com.benz.online.assignment.utils";
+
+message Data {
+    string dataString = 1;
+    enum FileType {
+        CSV = 0;
+        XML = 1;
+    }
+    FileType fileType=2;
+    bool isStore =3;
+}
