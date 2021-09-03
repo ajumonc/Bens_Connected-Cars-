@@ -43,14 +43,14 @@ Go through steps in below link and setup a local RabbitMQ host.
 - C. Open IDE and run the springboot application (/src/java/controller)
 
 - D. Open service 1 project in IDE and run (service1application.java)
- -  Open the service in any browser (http://localhost:8090/swagger-ui.html#!).
+  - Open the service in any browser (http://localhost:8090/swagger-ui.html#!).
 
 - E. Open service 2 project in IDE and run (service2application.java)
- -  Open the service in any browser (http://localhost:9090/swagger-ui.html#!).
+  - Open the service in any browser (http://localhost:9090/swagger-ui.html#!).
 
 - F. If both the local host port are up and running :- 
 
- - Open **service 1** (http://localhost:8090/swagger-ui.html#!) and 
+  - Open **service 1** (http://localhost:8090/swagger-ui.html#!) and 
   check three API publish on the swagger (_/store-data ,/update-data, /read-data_).
 
 G. Open any of the API in _**swaggerUI**_
